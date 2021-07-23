@@ -4,34 +4,96 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    
+}
+
+body {
+width: 100vw;
+
 }
 
 header {
-    background-color:#707070;
-    width: 1500px;
-    height: 399px;
+    width: 100%;
+    height: 400px;
+    background-color: #707070;
+    
 }
 
+header div {
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    padding: 50px 30px;
+}
 header div p {
-    text-align: left;
-    font: normal normal normal 20px/24px Helvetica Neue;
     letter-spacing: 0px;
     color: #FFFFFF;
-    opacity: 1;
-}
+    font-size: 20px;
+    line-height: 24px;
+    }
 
 header div h1 {
-    text-align: left;
-    font: normal normal normal 20px/24px Helvetica Neue;
     letter-spacing: 0px;
     color: #FFFFFF;
-    opacity: 1;
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 49px;
+    margin-bottom: 24px;
 }
 
 header div small {
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+header nav {
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header nav a {
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 6px #00000029;
+    border-radius: 4px;
+    margin: auto 40px;
+    padding: 12px 16px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+section div h2 {
     text-align: left;
     font: normal normal normal 20px/24px Helvetica Neue;
     letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
+    color: #888888;
+
 }
+
+section div p {
+    text-align: left;
+    font: normal normal normal 12px/18px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #888888;
+ }
+
+section form #nome {
+    width: 58px;
+    height: 14px;
+    text-align: left;
+    font: normal normal normal 12px/14px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #888888;
+    opacity: 1;
+} 
+
+@media (max-width: 855px){
+        header{
+            background-color: red;
+}
+}   
