@@ -72,7 +72,7 @@ section div h2 {
     font: normal normal normal 20px/24px Helvetica Neue;
     letter-spacing: 0px;
     color: #888888;
-
+    margin-left: 290px;
 }
 
 section div p {
@@ -80,20 +80,20 @@ section div p {
     font: normal normal normal 12px/18px Helvetica Neue;
     letter-spacing: 0px;
     color: #888888;
- }
+    margin-left: 290px;
+    margin-right: 690px;
+    display: flex;
+    flex-direction: column;
+}
 
-section form #nome {
-    width: 58px;
-    height: 14px;
+.form-help {
+    width: 340px;
+    height: 30px;
     text-align: left;
     font: normal normal normal 12px/14px Helvetica Neue;
     letter-spacing: 0px;
     color: #888888;
-    opacity: 1;
-} 
-
-@media (max-width: 855px){
-        header{
-            background-color: red;
+    margin-left: 870px;
+    flex-direction: column;
+    display: flex;
 }
-}   
