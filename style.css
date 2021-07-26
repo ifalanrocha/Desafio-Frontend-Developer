@@ -67,6 +67,7 @@ header nav a {
     padding: 12px 16px;
     font-size: 14px;
     text-decoration: none;
+    color: #888888;
 }
 
 section div h2 {
@@ -100,4 +101,19 @@ section div p {
     margin-left: 870px;
     flex-direction: column;
     display: flex;
+}
+
+footer {
+    width: 100%;
+    height: max-content;
+    padding: 15rem 0 9rem 0;
+    background-color: #707070;
+    background: linear-gradient(354deg, #707070 50% 60%, #fff 50% 40%);
+}
+
+footer .content {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fff;
+  padding-top: 10rem;
 }
